@@ -1,0 +1,19 @@
+<h4>Route Overview</h4>
+
+    <h3><a href="{{ url_for('index') }}?name=John">/?name=John</a></h3>
+    <p>Displays the homepage and optionally greets the user based on the 'name' query parameter in the URL. Defaults to 'No Name' if not provided.</p>
+
+    <h3><a href="{{ url_for('greet', name='Alice') }}">/greet/Alice</a></h3>
+    <p>Takes a 'name' from the URL and displays a greeting with the capitalized version of the name.</p>
+
+    <h3><a href="{{ url_for('form') }}">/form</a></h3>
+    <p>Renders a form page where the user can submit data (e.g., updating user information).</p>
+
+    <h3><a href="{{ url_for('all_users') }}">/all-users</a></h3>
+    <p>Displays a list of all users (name, age, and country) from the 'users' dictionary.</p>
+
+    <h3><a href="{{ url_for('all_users_table') }}">/all-users/table</a></h3>
+    <p>Displays a table representation of all users from the 'users' dictionary.</p>
+
+    <h3><a href="{{ url_for('update_country') }}">/update-country</a></h3>
+    <p>Allows updating a user's country. If the user exists, it updates the country; otherwise, it adds the user with the provided country, without age. Redirects to the 'all_users' route after updating.</p>
