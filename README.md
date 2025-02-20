@@ -1,6 +1,7 @@
 # Flask User Management Application
 
 This is a simple Flask application for managing users. It includes features such as greeting users, displaying user information, and updating user details.
+<img width="1544" alt="Bildschirmfoto 2025-02-20 um 20 19 57" src="https://github.com/user-attachments/assets/5f5e2b03-4d63-4304-95a0-9060dec39702" />
 
 ## Features
 
@@ -10,6 +11,8 @@ This is a simple Flask application for managing users. It includes features such
 - **All Users**: Displays a list of all users with their age and country.
 - **All Users Table**: Displays a table representation of all users.
 - **Update Country**: Allows updating a user's country or adding a new user with a country.
+  
+<img width="1544" alt="Bildschirmfoto 2025-02-20 um 20 20 10" src="https://github.com/user-attachments/assets/81bdcf72-ecf7-4f89-9bbe-df1fa89e4a9d" />
 
 ## Routes
 
@@ -19,6 +22,8 @@ This is a simple Flask application for managing users. It includes features such
 - `/all-users`: Displays a list of all users.
 - `/all-users/table`: Displays a table of all users.
 - `/update-country`: Allows updating a user's country or adding a new user.
+
+
 
 ## Templates
 
